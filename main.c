@@ -16,14 +16,16 @@
  * and naming our pins instead of using their standard names.
  *
  */
+#if 0
 init();                                            /* From CMSIS I hope */
-int_32t SENSOR_PIN;                                /* analog input */
-int_32t OUTPUT_PIN;                                /* binary output */
-int_32t DEBUG_PIN;                                 /* binary output */
-int_32t debug_status = TRUE;                       /* toggle */
-int_32t touch_input;                               /* */
-int_32t touch_status;                              /* */
-int_32t touch_level;                               /* */
+#endif
+int SENSOR_PIN;                                /* analog input */
+int OUTPUT_PIN;                                /* binary output */
+int DEBUG_PIN;                                 /* binary output */
+int debug_status = 1;                          /* toggle */
+int touch_input;                               /* */
+int touch_status;                              /* */
+int touch_level;                               /* */
 
 /*
  * Loop for ever
